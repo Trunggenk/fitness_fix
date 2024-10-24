@@ -1,6 +1,7 @@
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as carousel_slider;
 import 'package:fitness/view/login/welcome_view.dart';
 import 'package:flutter/material.dart';
+import 'package:carousel_slider/carousel_options.dart'; 
 
 import '../../common/colo_extension.dart';
 import '../../common_widget/round_button.dart';
@@ -13,7 +14,7 @@ class WhatYourGoalView extends StatefulWidget {
 }
 
 class _WhatYourGoalViewState extends State<WhatYourGoalView> {
-  CarouselController buttonCarouselController = CarouselController();
+  carousel_slider.CarouselController myController = carousel_slider.CarouselController();
 
   List goalArr = [
     {
@@ -45,7 +46,7 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
           child: Stack(
         children: [
           Center(
-            child: CarouselSlider(
+            child: carousel_slider.CarouselSlider(
               items: goalArr
                   .map(
                     (gObj) => Container(
@@ -97,7 +98,7 @@ class _WhatYourGoalViewState extends State<WhatYourGoalView> {
                     ),
                   )
                   .toList(),
-              carouselController: buttonCarouselController,
+              carouselController: myController, // Updated controller
               options: CarouselOptions(
                 autoPlay: false,
                 enlargeCenterPage: true,
