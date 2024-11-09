@@ -1,4 +1,4 @@
-Mã nguồn copy từ : https://github.com/igrisan/fitness_workout_app_flutter_3_ui
+Mã nguồn ăn cắp từ : https://github.com/igrisan/fitness_workout_app_flutter_3_ui
 
 Các Lỗi đến từ Flutter:
 - Lỗi phiên bản Java run time cần nâng gradle lên ^8.0.0
