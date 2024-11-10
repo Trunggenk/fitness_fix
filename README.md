@@ -1,6 +1,23 @@
-Mã nguồn ăn cắp từ : https://github.com/igrisan/fitness_workout_app_flutter_3_ui
+Mã nguồn tham khảo từ : https://github.com/igrisan/fitness_workout_app_flutter_3_ui
 
-Các Lỗi đến từ Flutter:
+### Huướng dẫn cài đặt
+- Cài đặt Flutter: https://flutter.dev/docs/get-started/install
+- Cài đặt Android Studio: https://developer.android.com/studio
+- Cài đặt Visual Studio Code: https://code.visualstudio.com/
+- Bật Android SDK CommandLine Toolls trong SDK Manager -> SDK Tools
+- Cài đặt Python, và mini conda.
+
+
+### Kiến trúc thư mục
+*Thư mục server* /server
+...
+Hiện chưa cần quan tâm
+### Hướng dẫn chạy
+- flutter run
+- chọn Emulator API 35 trở lên.
+
+
+Đã fix hết lối đến từ Flutter:
 - Lỗi phiên bản Java run time cần nâng gradle lên ^8.0.0
 - Lỗi namespace cần sửa replace toàn bộ namespace thành com.example.fitness 
 - lỗi flchat: cách sửa lỗi:
@@ -23,3 +40,5 @@ The code compiled successfully inside the custom code section
 Integrated my FLChartBarWidget component inside one of my project pages and everything seemed to work properly (the Mingguan widget at the bottom):"
 
 # Vô vàn lỗi khác :> dmm Flutter mỗi phiên bản của plugins lại thay đổi cấu trúc.
+
+
