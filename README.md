@@ -1,5 +1,6 @@
 Mã nguồn tham khảo từ : https://github.com/igrisan/fitness_workout_app_flutter_3_ui
 
+Mã nguồn ML : https://www.youtube.com/watch?v=bHyihP2XjqA&list=PL-Y17yukoyy0sT2hoSQxn1TdV0J7-MX4K&index=8
 ### Huướng dẫn cài đặt
 - Cài đặt Flutter: https://flutter.dev/docs/get-started/install
 - Cài đặt Android Studio: https://developer.android.com/studio
