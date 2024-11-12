@@ -189,7 +189,7 @@ class _HomeViewState extends State<HomeView> {
                                     fontWeight: FontWeight.w700),
                               ),
                               Text(
-                                "You have a normal weight",
+                                "Bạn có cân nặng bình thường",
                                 style: TextStyle(
                                     color: TColor.white.withOpacity(0.7),
                                     fontSize: 12),
@@ -307,7 +307,7 @@ class _HomeViewState extends State<HomeView> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Heart Rate",
+                                "Nhịp Tim",
                                 style: TextStyle(
                                     color: TColor.black,
                                     fontSize: 16,

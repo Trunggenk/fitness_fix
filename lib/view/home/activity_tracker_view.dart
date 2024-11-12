@@ -148,7 +148,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                           child: TodayTargetCell(
                             icon: "assets/img/water.png",
                             value: "8L",
-                            title: "Water Intake",
+                            title: "Nước uống",
                           ),
                         ),
                         SizedBox(
