@@ -30,24 +30,35 @@ class _MainTabViewState extends State<MainTabView> {
         width: 70,
         height: 70,
         child: InkWell(
-          onTap: () {},
+          onTap: () {
+            setState(() {
+              currentTab = const BlankView();
+            });
+          },
           child: Container(
             width: 65,
             height: 65,
             decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: TColor.primaryG,
-                ),
-                borderRadius: BorderRadius.circular(35),
-                boxShadow: const [
-                  BoxShadow(
-                      color: Colors.black12,
-                      blurRadius: 2,)
-                ]),
-            child: Icon(Icons.search,color: TColor.white, size: 35, ),
+              gradient: LinearGradient(
+                colors: TColor.primaryG,
+              ),
+              borderRadius: BorderRadius.circular(35),
+              boxShadow: const [
+                BoxShadow(
+                  color: Colors.black12,
+                  blurRadius: 2,
+                )
+              ],
+            ),
+            child: Icon(
+              Icons.shopping_cart,
+              color: TColor.white,
+              size: 35,
+            ),
           ),
         ),
       ),
+
       bottomNavigationBar: BottomAppBar(
           child: Container(
         decoration: BoxDecoration(color: TColor.white, boxShadow: const [

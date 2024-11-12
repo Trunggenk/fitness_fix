@@ -108,7 +108,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                           style: TextStyle(
                               color: TColor.black,
                               fontSize: 14,
-                              fontWeight: FontWeight.w700),
+                              fontWeight: FontWeight.w500),
                         ),
                         SizedBox(
                           width: 30,

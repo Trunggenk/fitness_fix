@@ -32,7 +32,7 @@ class SelectView extends StatelessWidget {
                 const SizedBox(height: 15,),
 
                   RoundButton(
-                title: "Meal Planner",
+                title: "Meal Planner AI",
                 onPressed: () {
                   Navigator.push(
                     context,

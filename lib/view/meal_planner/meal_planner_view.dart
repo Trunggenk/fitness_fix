@@ -68,7 +68,7 @@ class _MealPlannerViewState extends State<MealPlannerView> {
           ),
         ),
         title: Text(
-          "Meal Planner",
+          "Meal Planner AI",
           style: TextStyle(
               color: TColor.black, fontSize: 16, fontWeight: FontWeight.w700),
         ),

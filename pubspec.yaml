@@ -91,10 +91,10 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
-        - asset: assets/font/JetBrainsMono-Regular.ttf
-        - asset: assets/font/JetBrainsMono-Medium.ttf
+        - asset: assets/font/ProductSans-Regular.ttf
+        - asset: assets/font/ProductSans-Medium.ttf
           weight: 500
-        - asset: assets/font/JetBrainsMono-Bold.ttf
+        - asset: assets/font/ProductSans-BoldItalic.ttf
           weight: 700
   #
   # For details regarding fonts from package dependencies,

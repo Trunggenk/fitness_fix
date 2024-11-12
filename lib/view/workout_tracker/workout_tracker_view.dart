@@ -84,7 +84,7 @@ class _WorkoutTrackerViewState extends State<WorkoutTrackerView> {
                 ),
               ),
               title: Text(
-                "Workout Tracker",
+                "Workout Recommed AI",
                 style: TextStyle(
                     color: TColor.white,
                     fontSize: 16,
