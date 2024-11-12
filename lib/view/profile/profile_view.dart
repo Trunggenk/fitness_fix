@@ -17,11 +17,11 @@ class _ProfileViewState extends State<ProfileView> {
   bool positive = false;
 
   List accountArr = [
-    {"image": "assets/img/p_personal.png", "name": "Personal Data", "tag": "1"},
-    {"image": "assets/img/p_achi.png", "name": "Achievement", "tag": "2"},
+    {"image": "assets/img/p_personal.png", "name": "Thông tin cá nhân", "tag": "1"},
+    {"image": "assets/img/p_achi.png", "name": "Thành tựu", "tag": "2"},
     {
       "image": "assets/img/p_activity.png",
-      "name": "Activity History",
+      "name": "Hoạt động gần đây",
       "tag": "3"
     },
     {
@@ -32,9 +32,9 @@ class _ProfileViewState extends State<ProfileView> {
   ];
 
   List otherArr = [
-    {"image": "assets/img/p_contact.png", "name": "Contact Us", "tag": "5"},
-    {"image": "assets/img/p_privacy.png", "name": "Privacy Policy", "tag": "6"},
-    {"image": "assets/img/p_setting.png", "name": "Setting", "tag": "7"},
+    {"image": "assets/img/p_contact.png", "name": "Liên hệ với chúng tôi", "tag": "5"},
+    {"image": "assets/img/p_privacy.png", "name": "Điều khoản dịch vụ", "tag": "6"},
+    {"image": "assets/img/p_setting.png", "name": "Cài đặt", "tag": "7"},
   ];
   @override
   Widget build(BuildContext context) {
@@ -96,7 +96,7 @@ class _ProfileViewState extends State<ProfileView> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Stefani Wong",
+                          "Nguyen Van A",
                           style: TextStyle(
                             color: TColor.black,
                             fontSize: 14,
@@ -104,7 +104,7 @@ class _ProfileViewState extends State<ProfileView> {
                           ),
                         ),
                         Text(
-                          "Lose a Fat Program",
+                          "Lộ trình giảm cân",
                           style: TextStyle(
                             color: TColor.gray,
                             fontSize: 12,
@@ -140,8 +140,8 @@ class _ProfileViewState extends State<ProfileView> {
                 children: [
                   Expanded(
                     child: TitleSubtitleCell(
-                      title: "180cm",
-                      subtitle: "Height",
+                      title: "183cm",
+                      subtitle: "Chiều cao",
                     ),
                   ),
                   SizedBox(
@@ -149,8 +149,8 @@ class _ProfileViewState extends State<ProfileView> {
                   ),
                   Expanded(
                     child: TitleSubtitleCell(
-                      title: "65kg",
-                      subtitle: "Weight",
+                      title: "63kg",
+                      subtitle: "Cân nặng",
                     ),
                   ),
                   SizedBox(
@@ -158,8 +158,8 @@ class _ProfileViewState extends State<ProfileView> {
                   ),
                   Expanded(
                     child: TitleSubtitleCell(
-                      title: "22yo",
-                      subtitle: "Age",
+                      title: "20 tuổi",
+                      subtitle: "Tuổi",
                     ),
                   ),
                 ],
@@ -244,7 +244,7 @@ class _ProfileViewState extends State<ProfileView> {
                             ),
                             Expanded(
                               child: Text(
-                                "Pop-up Notification",
+                                "Thông báo nổi",
                                 style: TextStyle(
                                   color: TColor.black,
                                   fontSize: 12,

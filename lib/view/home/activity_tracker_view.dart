@@ -104,7 +104,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Today Target",
+                          "Mục tiêu hôm nay",
                           style: TextStyle(
                               color: TColor.black,
                               fontSize: 14,
@@ -173,7 +173,7 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Activity  Progress",
+                    "Tiến độ hoạt động",
                     style: TextStyle(
                         color: TColor.black,
                         fontSize: 16,

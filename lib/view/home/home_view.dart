@@ -131,7 +131,7 @@ class _HomeViewState extends State<HomeView> {
                           style: TextStyle(color: TColor.gray, fontSize: 12),
                         ),
                         Text(
-                          "Stefani Wong",
+                          "Nguyen Van A",
                           style: TextStyle(
                               color: TColor.black,
                               fontSize: 20,
@@ -245,7 +245,7 @@ class _HomeViewState extends State<HomeView> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        "Today Target",
+                        "Mục tiêu hàng ngày",
                         style: TextStyle(
                             color: TColor.black,
                             fontSize: 14,
@@ -904,7 +904,7 @@ class _HomeViewState extends State<HomeView> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Latest Workout",
+                      "Hoạt Động Gần Đây",
                       style: TextStyle(
                           color: TColor.black,
                           fontSize: 16,
